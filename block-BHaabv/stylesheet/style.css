@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Custom Style*/
+body {
+    line-height: 1.5;
+    font-size: 12px;
+    background-color: #1d2029;
+    color: #fff;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+/*General*/
+.pic {
+    width: 12px;
+}
+
+/*Header*/
+.header{
+    padding: 30px 0;
+    background-color: #20232f;
+    padding-bottom: 160px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+
+}
+.header h1 {
+    font-size: 32px;
+}
+.header h3{
+    font-size: 16px;
+    color: #7f8cb2;
+}
+.btn-container span {
+    color:#7f8cb2;
+}
+.btn {
+    width: 39px;
+    height: 18px;
+    border-radius: 18px;
+    background:linear-gradient(to right,#3db2b9,#3bd192);
+    margin-left: 12px;
+    padding-left: 6px;
+}
+.circle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #262c55;
+}
+/*Card*/
+.main{
+    margin-top: 100px;
+}
+.card-container{
+    padding: 50px 0;
+
+}
+.card{
+    background-color: #252c43;
+    padding: 32px;
+    text-align: center;
+    width: 22%;
+    position: relative;
+    border-radius: 5px;
+}
+.card img {
+    margin-right: 6px;
+}
+.card h2 {
+    font-size: 55px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+}
+.card-body{
+    padding: 22px 0;
+}
+.card-body p{
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin-top: 3px;
+}
+.card-footer img {
+    margin-right: 3px;
+    font-size: 8px;
+}
+.card-footer span{
+    color: #5bb891;
+    font-size: 8px;
+}
+.border-top {
+width: 100%;
+height: 3px;
+background-color: #188ff5;
+position: absolute;
+left: 0;
+right: 0;
+top: 0;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+.card-twt .border-top{
+    background-color: #349adc;
+}
+.card-insta .border-top{
+    background: linear-gradient(to right,#fac26f,#c75992);
+}
+.card-lkd .border-top{
+    background-color: #a21233;
+}
+.card-footer .color{
+    color: #c34f5f;
+}
+/*Overview*/
+.overview-card{
+    margin-bottom: 30px;
+}
+.overview-card .card-header{
+    margin-bottom: 28px;
+}
+.overview h2{
+    font-size:30px;
+    margin-bottom: 12px;
+}
+.overview-card h3{
+font-size: 32px;
+color: #fff;
+font-weight: 700;
+}
+.overview-card span{
+    font-size: 8px;
+    color: #3bd192;
+}
+
